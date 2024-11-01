@@ -281,7 +281,7 @@
         spinner.style.display = 'none';
         // เคลียร์ข้อมูลเก่าในตาราง
         timeSlots.forEach(time => {
-          document.getElementById(`MeetingRoom1_${time}`).textContent = '';
+          document.getElementById(`Venus_${time}`).textContent = '';
         });
 
         if (events.length === 0) {
@@ -295,7 +295,7 @@
               let slot = getTimeSlot(timeFromSlot);
 
               if (slot) {
-                document.getElementById(`MeetingRoom1_${slot}`).textContent = event.work;
+                document.getElementById(`Venus_${slot}`).textContent = event.work;
               }
 
               // เพิ่มเวลา 30 นาที
