@@ -273,7 +273,7 @@
 
     spinner.style.display = 'block';
     const [year, month, day] = selectedDate.split('-');
-    const requestUrl = `https://script.google.com/macros/s/AKfycbzsAA0WG8UTM05dk7FSD9cUNQGCyNPH1qReUPUkS7jndlyMaucoLlCJbttCfy63VEBK9g/exec?page=Moons&date=${year}-${month}-${day}`;
+    const requestUrl = `https://script.google.com/macros/s/AKfycbz8aY23dz3TGnJhgtwZymxrpL9itrMkPycdi75nh2qugX1JIv1-UXGLANXd2Q8c_RjpRA/exec?page=Moons&date=${year}-${month}-${day}`;
 
     fetch(requestUrl)
       .then(response => response.json())
